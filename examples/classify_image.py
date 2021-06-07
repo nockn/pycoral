@@ -57,7 +57,7 @@ def main():
 
     file_glob = args.directory + "/*"
     files = glob.glob(file_glob)
-    len_path = len(args.files)
+    len_path = len(args.directory)
 
     labels = read_label_file(args.labels) if args.labels else {}
 
